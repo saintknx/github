@@ -7,8 +7,5 @@ public class CalculadoraTeste {
         //Testar subtração
         double sub = calc.subtrair(2, 3);
         System.out.println(sub);
-        //Testar multiplicação
-        double mult = calc.multiplicar(2, 3);
-        System.out.println(mult);
     }
 }

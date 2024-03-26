@@ -10,5 +10,8 @@ public class CalculadoraTeste {
         //Testar multiplicação
         double mult = calc.multiplicar(2, 3);
         System.out.println(mult);
+        //Testar divisão
+        double div = calc.dividir (2, 3);
+        System.out.println(div);
     }
 }

@@ -1,4 +1,9 @@
 public class Calculadora{
+
+    private double Pref;
+    Calculadora(double Pref){
+        this.Pref = Pref;
+    }
     public double somar(double a, double b){
         return a + b;
     }
@@ -10,5 +15,8 @@ public class Calculadora{
     }
     public double dividir(double a, double b){
         return a / b;
+    }
+    public double somarPref (double a){
+        return a + Pref;
     }
 }
